@@ -1,0 +1,10 @@
+# Default values for Traefik
+image:
+  # -- Traefik image host registry
+  #registry: docker.io
+  # -- Traefik image repository
+  #repository: traefik
+  # -- defaults to appVersion
+  tag: "v3.0.0-beta3"
+  # -- Traefik image pull policy
+  #pullPolicy: IfNotPresent
